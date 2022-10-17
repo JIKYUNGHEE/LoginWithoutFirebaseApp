@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LoginWithoutFirebaseApp</string>
+
+    <!-- facebook login -->
+    <string name="facebook_app_id">1784250468594429</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">33b932b35efdeff713f674d8536c0c20</string>
+    <string name="access_token_title">access token</string>
+    <string name="is_logined_title">isLogined</string>
+
 </resources>
