@@ -25,7 +25,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        FacebookSdk.sdkInitialize(applicationContext)
+
+        /* -------------------- Facebook Login --------------------
+         FacebookSdk.sdkInitialize(applicationContext)
         AppEventsLogger.activateApp(application)
 
         registerFacebookLCallbackManager()
@@ -54,6 +56,7 @@ class MainActivity : AppCompatActivity() {
                     Log.e(TAG, "[registerCallback] login Error: ${exception.message}")
                 }
             })
+            -------------------- Facebook Login -------------------- */
     }
 
     private fun registerFacebookLCallbackManager() {
